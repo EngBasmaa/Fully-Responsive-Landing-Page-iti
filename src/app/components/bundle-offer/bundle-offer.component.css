@@ -1,0 +1,47 @@
+.offer {
+    padding: 3rem;
+}
+
+.container {
+    width: 80%
+}
+
+.mybox {
+    border-radius: 0.5rem !important;
+    border-left: 4px solid var(--primary-color);
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.row p {
+    font-weight: 600;
+}
+
+.list-unstyled li span {
+    font-size: 0.9rem;
+}
+
+.icon {
+    font-weight: 600 !important;
+    font-size: 1.4rem !important;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .list-unstyled,
+    .get {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem !important
+    }
+}

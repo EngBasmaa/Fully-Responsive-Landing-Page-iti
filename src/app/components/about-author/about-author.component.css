@@ -1,0 +1,44 @@
+.container {
+    width: 95%;
+    margin: auto
+}
+
+.row {
+    padding: 0;
+    margin: 0
+}
+
+img {
+    transform: rotate(-10deg);
+    max-width: 100%;
+    position: relative;
+    left: -1.5rem;
+    border-radius: 0.5rem;
+}
+
+.list-unstyled {
+    gap: 0.6rem
+}
+
+i {
+    font-size: 1.3rem !important;
+    padding: 0.6rem;
+    border-radius: 50%;
+    height: 2.9rem
+}
+
+
+@media (max-width: 992px) {
+    .image {
+        width: 50vw;
+        margin: auto;
+        position: relative;
+        top: 6rem;
+        margin-bottom: 12rem;
+    }
+
+    .content {
+        width: 80vw;
+        margin: auto;
+    }
+}

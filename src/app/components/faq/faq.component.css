@@ -1,0 +1,30 @@
+.accordion-button {
+    background-color: var(--background-white-color);
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.75rem !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+    background-color: var(--background-button-color);
+    box-shadow: none;
+}
+
+.accordion-body {
+    font-size: 0.95rem;
+}
+
+.accordion-item {
+    border-radius: 0.75rem !important;
+}
+
+.accordion-button {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+button {
+    gap: 1rem
+}

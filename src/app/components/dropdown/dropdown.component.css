@@ -1,0 +1,31 @@
+.footer-title {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.footer-description {
+    max-width: 600px;
+    margin: auto;
+    color: var(--text-color);
+}
+
+.social-icon,
+.bi-facebook,
+.bi-instagram,
+.bi-linkedin {
+    background-color: var(--primary-color);
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}

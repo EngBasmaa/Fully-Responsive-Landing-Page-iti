@@ -1,0 +1,17 @@
+.solid a.btn:first-child:hover {
+    background-color: var(--button-hover-color) !important;
+    color: #fff !important;
+}
+
+.header {
+    height: 95vh !important
+}
+
+img {
+    transform: rotate(-10deg);
+    transition: transform 2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+img:hover {
+    transform: rotate(0deg);
+}

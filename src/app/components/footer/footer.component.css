@@ -1,0 +1,19 @@
+.footer-theme {
+    background-color: var(--background-section-color);
+    color: var(--text-color);
+}
+
+
+.footer-bottom {
+    background-color: var(--background-button-color);
+    border-top: 1px solid #ddd;
+}
+
+.footer-bottom a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

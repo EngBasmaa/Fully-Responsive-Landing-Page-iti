@@ -1,0 +1,60 @@
+.container,
+.row {
+    margin: 0;
+    padding: 0;
+    margin: auto
+}
+
+.boxstyle {
+    border-top: 4px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 40%;
+}
+
+.form {
+    width: 55%;
+}
+
+form .form-control::placeholder {
+    color: #a39786;
+    font-size: 0.9rem;
+}
+
+
+form input,
+form textarea {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(241, 124, 19, 0.25);
+}
+
+.text-end .btn:hover {
+    background-color: var(--button-hover-color) !important;
+}
+
+/* .............................. */
+
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    color: var(--text-color);
+}
+
+@media (max-width: 992px) {
+    .boxstyle {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}

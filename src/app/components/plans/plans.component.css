@@ -1,0 +1,137 @@
+/* Plan card hover effects */
+.container {
+    width: 100% !important
+}
+
+.plan {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.5rem !important;
+    height: 78vh !important;
+    position: relative;
+    border-top: 4px solid var(--primary-color);
+}
+
+.plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.plan h4 {
+    position: relative;
+    padding-bottom: 0.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.plan h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 3px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.plan>p {
+    font-size: 1.8rem;
+}
+
+.plan:hover h4::after {
+    width: 60%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 8%;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    transition: all var(--transition-speed);
+}
+
+.plan a.btn {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.plan .bottom a.btn {
+    display: block !important;
+    align-self: center !important;
+    width: fit-content !important;
+}
+
+.bottom {
+    width: 100%
+}
+
+.bottom a {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.container .row .plans p#available {
+    font-size: 0.5rem !important;
+}
+
+i {
+    transition: transform 0.4s ease;
+}
+
+i:hover {
+    color: var(--primary-color);
+    transform: translate(0, -5px);
+}
+
+
+
+@media (max-width: 1150px) {
+    .bottom {
+        justify-content: center !important;
+    }
+
+    .bottom a {
+        font-size: 0.8rem !important;
+        padding: 0.5rem 1rem !important;
+    }
+
+    .list-unstyled li>span {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .plan {
+        height: 65vh !important;
+        width: 85%;
+        margin: auto
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    .heading-primary {
+        font-size: 2rem;
+    }
+
+    .plan {
+        width: 70%;
+    }
+}
